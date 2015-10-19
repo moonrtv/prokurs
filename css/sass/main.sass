@@ -1,0 +1,108 @@
+@import "bourbon/bourbon"
+
+$text-color: #333
+$dark-color: #000
+$red-color: #9B1818
+$blue-color: #003469
+$green-color: #67bc5c
+
+body
+	font-family: "RobotoRegular", sans-serif
+  color: $text-color
+	font-weight: normal
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	-webkit-font-smoothing: antialised
+
+h1
+  color: #fff
+  font-size: 60px
+  line-height: 60px
+  font-weight: bold
+  font-family: "CleanvertisingLight", sans-serif
+  margin: 0
+
+section
+  padding: 58px 0 68px
+  &.s_dark
+    h2, h3, p
+      color: #fff
+  h2
+    color: $blue-color
+    font-size: 50px
+    line-height: 56px
+    margin-bottom: 50px
+
+
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: red
+body input:required:valid,
+body textarea:required:valid
+	color: green
+
+.hidden
+	display: none
+
+header
+  min-height: 640px
+  background: url("../img/top_bg.jpg") top center
+  background-size: cover
+  color: #fff
+  padding-top: 32px
+
+.logo
+  font-size: 40px
+  font-family: "RobotoBold", sans-serif
+  font-weight: bold
+
+.top_phone
+  text-align: right
+
+.tab_item
+  display: none
+
+.tab_item:first-child
+  display: block
+
+.top_phone .wrapper .tab
+  text-transform: uppercase
+  cursor: pointer
+
+.top_phone .wrapper .active
+  text-decoration: underline
+
+.top_phone .tab_item
+  font-family: "RobotoBold", sans-serif
+  font-size: 34px
+  display: none
+
+.top_header
+  margin-top: 70px
+  h2
+    font-family: "CleanvertisingLight", sans-serif
+    font-size: 36px
+    margin: 10px 0 0
+
+.tabs_header
+  margin-top: 30px
+  .tabs
+    span
+      display: inline-block
+      float: left
+      font-family: "RobotoBold", sans-serif
+      background-color: rgba(255,255,255,.25)
+      text-transform: uppercase
+      padding: 15px 18px
+      cursor: pointer
+      +transition(all .25s ease)
+      &.active
+        background-color: rgba(255,255,255,.35)
+        color: #000
+
+  .tab_content
+    background-color: rgba(255,255,255,.35)
+    padding: 15px 18px

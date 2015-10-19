@@ -1,0 +1,125 @@
+body {
+  font-family: "RobotoRegular", sans-serif;
+  font-family-color: #333;
+  font-weight: normal;
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialised;
+}
+
+h1 {
+  color: #fff;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: bold;
+  font-family: "CleanvertisingLight", sans-serif;
+  margin: 0;
+}
+
+section {
+  padding: 58px 0 68px;
+}
+
+section.s_dark h2, section.s_dark h3, section.s_dark p {
+  color: #fff;
+}
+
+section h2 {
+  color: #003469;
+  font-size: 50px;
+  line-height: 56px;
+  margin-bottom: 50px;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red;
+}
+
+body input:required:valid,
+body textarea:required:valid {
+  color: green;
+}
+
+.hidden {
+  display: none;
+}
+
+header {
+  min-height: 640px;
+  background: url("../img/top_bg.jpg") top center;
+  background-size: cover;
+  color: #fff;
+  padding-top: 32px;
+}
+
+.logo {
+  font-size: 40px;
+  font-family: "RobotoBold", sans-serif;
+  font-weight: bold;
+}
+
+.top_phone {
+  text-align: right;
+}
+
+.tab_item {
+  display: none;
+}
+
+.tab_item:first-child {
+  display: block;
+}
+
+.top_phone .wrapper .tab {
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.top_phone .wrapper .active {
+  text-decoration: underline;
+}
+
+.top_phone .tab_item {
+  font-family: "RobotoBold", sans-serif;
+  font-size: 34px;
+  display: none;
+}
+
+.top_header {
+  margin-top: 70px;
+}
+
+.top_header h2 {
+  font-family: "CleanvertisingLight", sans-serif;
+  font-size: 36px;
+  margin: 10px 0 0;
+}
+
+.tabs_header {
+  margin-top: 30px;
+}
+
+.tabs_header .tabs span {
+  display: inline-block;
+  float: left;
+  font-family: "RobotoBold", sans-serif;
+  background-color: rgba(255, 255, 255, 0.25);
+  text-transform: uppercase;
+  padding: 15px 18px;
+  cursor: pointer;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.tabs_header .tabs span.active {
+  background-color: rgba(255, 255, 255, 0.35);
+  color: #000;
+}
+
+.tabs_header .tab_content {
+  background-color: rgba(255, 255, 255, 0.35);
+  padding: 15px 18px;
+}
