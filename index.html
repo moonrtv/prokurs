@@ -13,6 +13,9 @@
 
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.2.min.css" />
   <link rel="stylesheet" href="libs/myFonts/stylesheet.css" />
+  <link rel="stylesheet" href="libs/owl/assets/owl.carousel.css" />
+  <link rel="stylesheet" href="libs/popup/magnific-popup.css" />
+  <link rel="stylesheet" href="libs/animate/animate.min.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/media.css" />
@@ -69,10 +72,15 @@
                 </ul>
                 </div>
                 <div class="tab_item">
-                <p>Тут будет текст!</p>
+                <ul>
+                  <li> <i class="my my_a"></i>5% владельцу карты;</li>
+                  <li> <i class="my my_b"></i>5% предъявителю карты на все программы обучения + участия в акциях;</li>
+                  <li> <i class="my my_c"></i>3–5% на обучение за рубежом.</li>
+                </ul>
+
                 </div>
                 <div class="button_wrap">
-                  <a href="#" class="button btn_red">Начать обучение</a>
+                  <a href="#hidden_form" class="button btn_red popup_c">Начать обучение</a>
                 </div>
               </div>
             </div>
@@ -131,7 +139,7 @@
         <div class="col-md-12">
           <h2>Доверьте обучение профессионалам</h2>
           <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8 clearfix">
               <div class="profi_item clearfix col-md-12 col-sm-12 col-xs-6">
               <div class="row">
                 <div class="profi_left col-md-2 col-sm-2">
@@ -190,10 +198,12 @@
                 </label>
                 <label>
                   <span>Ваш город:</span>
-                  <select name="city" id="">
-                    <option>Москва</option>
-                    <option>Караганда</option>
-                  </select>
+                  <span class="label_select">
+                    <select name="city" id="">
+                      <option>Москва</option>
+                      <option>Караганда</option>
+                    </select>
+                  </span>
                 </label>
                 <div class="button_wrap">
                   <button class="button btn_green">Отправить заявку</button>
@@ -202,12 +212,152 @@
             </div>
           </div>
         </div>
-
       </div>
     </div>
   </section>
 
-	<div class="hidden"></div>
+  <section class="s_review s_dark" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Отзывы наших учеников</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="carousel">
+            <div class="review_item">
+              <div class="image_wrap">
+                <a href="img/review.jpg" class="popup"><img src="img/review.jpg" alt="Alt"></a>
+              </div>
+              <h4>Соломатина Наталья</h4>
+              <div class="hr"></div>
+              <div class="row">
+                <p class="col-md-8">
+                  Хочу поблагодарить ProKurs и Алену за проведенные курсы повышения квалификации. Эти уроки помогли мне преодолеть трудности. Уроки проходили в дружеской и непосредственной атмосфере, что способствовало хорошему усвоению материала и мотивировало на дальнейшие занятия. Алена всегда находила интересные темы для обсуждения.
+                </p>
+              </div>
+            </div>
+            <div class="review_item">
+              <div class="image_wrap">
+                <a href="img/review.jpg" class="popup"><img src="img/review.jpg" alt="Alt"></a>
+              </div>
+              <h4>Соломатина Наталья</h4>
+              <div class="hr"></div>
+              <div class="row">
+                <p class="col-md-8">
+                  Хочу поблагодарить ProKurs и Алену за проведенные курсы повышения квалификации. Эти уроки помогли мне преодолеть трудности. Уроки проходили в дружеской и непосредственной атмосфере, что способствовало хорошему усвоению материала и мотивировало на дальнейшие занятия. Алена всегда находила интересные темы для обсуждения.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="s_back s_dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h3>Повышение знаний с ProKurs — это оптимальное сочетание интенсива и углубленного подхода.</h3>
+        <a href="#hidden_form" class="button btn_white popup_c">Отправить заявку</a>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section class="s_contacts">
+    <div class="contacts_top">
+      <h2>Как нас найти: </h2>
+        <div class="tabs">
+          <span class="tab button btn_white">в Москве</span>
+          <span class="tab button btn_white">в Караганде</span>
+        </div>
+        <div class="wrapper clearfix">
+          <div class="tab_content">
+            <div class="tab_item">
+              1-я Миусская улица, дом 3
+              <div class="map">
+                <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=5hvTpEf6u8t0fTrc9VWa-d8NOUk1oKb_&amp;height=480"></script>
+              </div>
+            </div>
+            <div class="tab_item">
+              улица Воинов-интернационалистов, дом 53, корпус 1
+              <div class="map">
+                <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=NdJ9CkXzXmGNzgadgqGw68U-XtALliRY&amp;height=480"></script>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+        <h2>Остались вопросы?</h2>
+        <p>Наш специалист ответит на любой вопрос.</p>
+          <div class="bottom_phone">
+            <div class="wrapper">
+              <div class="tabs">
+                <span class="tab">Москва</span> /
+                <span class="tab">Караганда</span>
+              </div>
+              <div class="tab_content">
+                <div class="tab_item">+7 (999) 999-99-99</div>
+                <div class="tab_item">+7 (999) 888-88-88</div>
+              </div>
+            </div>
+          </div>
+          <div class="button_wrap">
+            <a href="#form_back" class="button btn_red popup_c">Заказать звонок</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+	<div class="hidden">
+    <form id="hidden_form">
+      <h2>Связаться с нами</h2>
+      <label>
+        <span>Ваше имя:</span>
+        <input type="text" name="name" required>
+      </label>
+      <label>
+        <span>Ваш телефон:</span>
+        <input type="text" name="phone" required>
+      </label>
+      <label>
+        <span>Ваш город:</span>
+        <span class="label_select">
+          <select name="city" id="">
+            <option>Москва</option>
+            <option>Караганда</option>
+          </select>
+        </span>
+      </label>
+      <div class="button_wrap">
+        <button class="button btn_green">Отправить заявку</button>
+      </div>
+    </form>
+    <form id="form_back">
+      <h2>Заказать звонок</h2>
+      <label>
+        <span>Ваше имя:</span>
+        <input type="text" name="name" required>
+      </label>
+      <label>
+        <span>Ваш телефон:</span>
+        <input type="text" name="phone" required>
+      </label>
+      <div class="button_wrap">
+        <button class="button btn_green">Отправить заявку</button>
+      </div>
+    </form>
+  </div>
 
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
@@ -218,6 +368,11 @@
 
 	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
 	<script src="libs/modernizr/modernizr.js"></script>
+  <script src="libs/stellar/jquery.stellar.min.js"></script>
+  <script src="libs/owl/owl.carousel.min.js"></script>
+  <script src="libs/popup/jquery.magnific-popup.min.js"></script>
+  <script src="libs/waypoints/waypoints.min.js"></script>
+  <script src="libs/animate/animate-css.js"></script>
 
 	<script src="js/common.js"></script>
 
