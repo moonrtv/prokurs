@@ -51,15 +51,15 @@ p strong {
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
   color: red;
-  color-box-shadow: 0 0 0 2px #9B1818;
-  color-border-color: #9B1818;
+  box-shadow: 0 0 0 2px #9B1818;
+  border-color: #9B1818;
 }
 
 body input:required:valid,
 body textarea:required:valid {
   color: green;
-  color-box-shadow: 0 0 0 2px #67bc5c;
-  color-border-color: #67bc5c;
+  box-shadow: 0 0 0 2px #67bc5c;
+  border-color: #67bc5c;
 }
 
 .hidden {
