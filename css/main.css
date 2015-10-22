@@ -369,6 +369,10 @@ form input:focus {
   border-radius: 3px;
 }
 
+form select:focus {
+  outline: none;
+}
+
 form select {
   background-image: url("../img/arrow.svg");
   background-position: right 20px center;
