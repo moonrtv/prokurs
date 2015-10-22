@@ -363,8 +363,7 @@ form select {
   margin-top: 3px;
 }
 
-form input:focus,
-form select:focus {
+form input:focus {
   box-shadow: 0 0 0 2px #67bc5c;
   border-color: #67bc5c;
   border-radius: 3px;
